@@ -4,4 +4,10 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Code.VS.ProjectFile.Types\source\R5T.Code.VS.ProjectFile.Types\R5T.Code.VS.ProjectFile.Types.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Code.VS.SolutionFile.Types\source\R5T.Code.VS.SolutionFile.Types\R5T.Code.VS.SolutionFile.Types.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Magyar\source\R5T.Magyar\R5T.Magyar.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Virconium.Base\source\R5T.Virconium.Base\R5T.Virconium.Base.csproj" />
+  </ItemGroup>
 </Project>
